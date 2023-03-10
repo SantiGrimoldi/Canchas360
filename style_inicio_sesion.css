@@ -1,23 +1,30 @@
+body{
+    background-image: url('Imagenes/png/logo-white.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
 .Datos{
-    font-size: large;
-    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+   
+
     background-color: white;
     box-shadow: 2px 2px 10px rgba(0, 0, 0, .6);
     padding: 80px 130px;
     width: fit-content;
-    position: absolute;
+    position: relative;
     left: 35%;
     border-radius: 20px;
+    opacity: 0.8;
     
 }
-button{
+#iniciosesion{
     background-color: #4CAF50;
     padding: 10px;
     border: 0px;
     border-radius: 8px;
     cursor: pointer;
 }
-button:hover{
+#iniciosesion:hover{
     background-color:#45a049 ;
 }
 a{
@@ -25,6 +32,7 @@ a{
     color: black;
     font-size: larger;
     font-family: Arial, Helvetica, sans-serif;
+    display: inline;
 }
 
 input{
@@ -39,3 +47,23 @@ h3{
     font-size: 20px;
     font-family: Arial, Helvetica, sans-serif;
 }
+
+button{
+    padding: 3px;
+    margin: 4px;
+    display: inline;
+    
+}
+
+#fotoISesion{
+    height: 70px;
+    width: 70px;
+    padding-left: 30%;
+}
+
+h2{
+    display: block;
+    font-size: 30px;
+    padding-left: 20px;
+}
+
